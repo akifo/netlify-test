@@ -1,0 +1,28 @@
+{
+  "name": "netlify-test",
+  "version": "1.0.0",
+  "description": "netlify test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:production": "gulp build --env production",
+    "build:staging": "gulp build --env staging"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akifo/netlify-test.git"
+  },
+  "author": "akifo <akiho.nagao@gmail.com>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/akifo/netlify-test/issues"
+  },
+  "homepage": "https://github.com/akifo/netlify-test#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.2.0",
+    "minimist": "^1.2.0",
+    "rimraf": "^2.5.4"
+  }
+}
