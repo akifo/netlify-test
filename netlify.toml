@@ -1,6 +1,9 @@
-[build.environment]
+[build]
   publish = "dist"
-  ACCESS_TOKEN = $TESTAAA
+
+[context.production]
+  [context.production.environment]
+    ACCESS_TOKEN = $TESTAAA
 
 [context.master]
   command = "npm run build:production"
