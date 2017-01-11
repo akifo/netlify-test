@@ -1,15 +1,8 @@
 [build]
   publish = "dist"
 
-[context.production]
-  [context.production.environment]
-    ACCESS_TOKEN = 'asdfasdfasdfasdfasdfasdfasfasdf'
-
 [context.master]
   command = "npm run build:production"
 
 [context.staging]
-  command = "npm run build:staging && echo ACCESS_TOKEN"
-#  command = "echo \"finish build:staging\""
-#  command = "echo $TESTAAA"
-#  command = "echo ACCESS_TOKEN"
+  command = "npm run build:staging"
