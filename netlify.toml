@@ -1,0 +1,15 @@
+[build.environment]
+  publish = "dist"
+  ACCESS_TOKEN = $TESTAAA
+
+[context.master]
+  command = "npm run build:production"
+  command = "echo \"finish build:production\""
+  command = "echo $TESTAAA"
+  command = "echo ACCESS_TOKEN"
+
+[context.staging]
+  command = "npm run build:staging"
+  command = "echo \"finish build:staging\""
+  command = "echo $TESTAAA"
+  command = "echo ACCESS_TOKEN"

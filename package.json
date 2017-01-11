@@ -4,7 +4,7 @@
   "description": "netlify test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"finish test\"",
     "build:production": "gulp build --env production",
     "build:staging": "gulp build --env staging"
   },
