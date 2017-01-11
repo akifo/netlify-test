@@ -3,7 +3,7 @@
 
 [context.production]
   [context.production.environment]
-    ACCESS_TOKEN = $TESTAAA
+    ACCESS_TOKEN = 'asdfasdfasdfasdfasdfasdfasfasdf'
 
 [context.master]
   command = "npm run build:production"
